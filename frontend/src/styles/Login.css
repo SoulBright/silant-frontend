@@ -1,0 +1,16 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 930px) {
+    .login {
+        flex-direction: column;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+    }
+}
